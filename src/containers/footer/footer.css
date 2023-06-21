@@ -1,0 +1,138 @@
+.gpt3__footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-footer);
+    justify-content: flex-start;
+
+
+}
+.gpt3__footer-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+.gpt3__footer-header h1{
+    text-align: center;
+font-weight: 800;
+font-size: 62px;
+font-family: var(--font-family);
+}
+.gpt3__footer-header button{
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+cursor: pointer;
+font-size: 62px;
+font-family: var(--font-family);
+background-color: var(--color-footer);
+width: 218px;
+height: 65px;
+margin-top: 5rem;
+}
+.gpt3__footer-header button p{
+    font-size: 18px;
+font-family: var(--font-family);
+color:#fff;
+}
+.gpt3__footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.gpt3__footer-content_links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex:1;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+    
+}
+.link{
+    flex:2
+}
+.link h4{
+    font-size: 14px;
+    color:#fff;
+    font-family: var(--font-family);
+}
+
+.option p, .gpt3__footer-content_logo p,.lastp{
+    font-size: 12px;
+    color:#fff;
+    font-family: var(--font-family);
+    margin-top: 2rem;
+}
+.option p{
+    max-width: 120px;
+}
+.gpt3__footer-content_logo{
+    flex:0.7;
+}
+.gpt3__footer-content_logo img{
+    width: 30%; height: 30%;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lastp{
+   margin-top: 5rem;
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__footer-header h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .gpt3__footer-content_logo img{
+        width: 50%; height: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+  .gpt3__footer-content{
+    align-items: center;
+   flex-direction: column;
+  }
+  .gpt3__footer-content_links{
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer-header h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .gpt3__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .gpt3__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__footer-header h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .gpt3__footer-content_links{
+        flex-direction: column;
+      }
+      .link{
+        margin-top: 2rem;
+      }
+}
+
